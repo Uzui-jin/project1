@@ -6,5 +6,4 @@ led = LED(4)
 led.on()
 sleep(uniform(5, 10))
 led.off()
-from random import uniform
-sleep(uniform(5, 10))
+
