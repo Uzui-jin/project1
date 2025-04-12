@@ -57,7 +57,7 @@ def game_round():
     # Wait for button press (maximum 10 seconds)
     wait_time = 0
     while winner is None and wait_time < 10:
-        sleep(0.1)
+        sleep(0.3)
         wait_time += 0.1
     
     # Update scores
